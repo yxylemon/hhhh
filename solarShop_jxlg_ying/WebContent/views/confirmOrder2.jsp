@@ -31,12 +31,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		}
 		//跳转到更改用户信息页面
 		function changeUserinfo(){
-			var url="<%=request.getContextPath()%>/views/userinfo.jsp";
+			var url="<%=request.getContextPath()%>/views/userinfo2.jsp";
 			window.location=url;
 		}
 		//跳转到修改购物车页面
 		function changeShopcart(){
-			var url="<%=request.getContextPath()%>/views/shopcart.jsp";
+			var url="<%=request.getContextPath()%>/views/shopcart2.jsp";
 			window.location=url;
 		}
 		//提交订单 

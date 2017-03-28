@@ -199,7 +199,6 @@
         //检验验证码是否正确
         function checkCode2(data){
         	 var code=data;
-        	 alert(code);
         	  $.ajax({
       			type : "post",
       			url : "action/user/checkCode",
@@ -220,7 +219,6 @@
         	var flag=checkReg(); 
         	var code=document.reg.code.value;
         	checkCode2(code);
-        	alert("isCode"+isCode);
         	 if(flag==false){
         		return false;
         	}
